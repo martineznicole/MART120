@@ -1,0 +1,30 @@
+</html>
+
+    <head>
+        <title>homepage</title>
+    <body>
+        <h1>Hobbies!</h1>
+        <ol>
+            <li>kayaking
+                <li>hiking
+                    <li>watching weird movies
+                        <li>talking to my dogs</li>
+                    </li>
+                </li>
+            </li>
+        </ol>
+    </body>
+        <h1>My Favorite Places to Wine and Dine!</h1>
+        <ol>
+            <li><a href="https://spitz-restaurant.com/mediterranean-food-billings-restaurant-bar/" target="_new">Mediterranean</a></li>
+            <li><a href="https://www.cosmicpizza.net/menu" target="_new">Pizza</a></li>
+            <li><a href="https://sweetchilibistro.com/" target="_new">Thai</a></li>
+
+        </ol>
+        <h1>Cruising the Web!</h1>
+            <ol>
+                <li><a href="https://www.nasa.gov/" target="_new">NASA</a></li>
+                <li><a href="https://www.lonelyplanet.com/" target="_new">Lonely Planet</a></li>
+            </ol>
+            <p><a href="file:///C:/Users/marti/OneDrive/Desktop/Page2.html">Go to the Short Story</a></p>
+            <p><a href="file:///C:/Users/marti/OneDrive/Desktop/Page3.html">Go to Contact Us</a></p>
