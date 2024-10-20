@@ -1,0 +1,57 @@
+<html>
+    <title>Forms</title>
+    <head>
+        <h1>Contact Us!</h1>
+        <script>
+            function getData()
+            {
+                var name = document.getElementById("txtName").value;
+                var phone = document.getElementById("txtPhone").value;
+
+                document.getElementById("finalResult").innerHTML = "name: " + name + " phone: " + phone;
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>First and Last Name</td>
+                <td><input type="text" id="txtName"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" id="txtPhone"></td>
+    </tr>  
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();">Submit</button></td>
+            </tr>
+        </table>
+        <div id="finalResult"></div>
+        <button id="btnSubmit">Accept Terms of Agreement</button>
+    
+    </body>
+ </html>
+ <html>
+    <title>If statements</title>
+    <head>
+        <script>
+        function printQuestion()
+        {
+            document.getElementById("theQuestion").innerHTML = "What is color of the sky?";
+        
+        }
+        function checkAnswer()
+        {
+            var answer = document.getElementById("txtAnswer").value;
+            if(answer == blue)
+            {
+                document.getElementById("finalResult").innerHTML = "AMAZING!";
+            }
+            else
+            {
+                document.getElementById("finalResult").innerHTML = "Really? Try Again!";
+            }
+        
+        }
+        </script>
+  
