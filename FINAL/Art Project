@@ -1,0 +1,53 @@
+//Nicole Martinez 
+//Interative Art Project Final! Create Your Own Adventure! 
+
+var redColor = 110;
+var greenColor = 39;
+var blueColor = 5;
+
+var x = 100;
+var y = 200;
+var diameter = 20;
+var movement = 80;
+
+  //Interactive Component with circular brush
+function setup (){ 
+	createCanvas (displayWidth,displayHeight) 
+	background (15,15,15) 
+} 
+function draw(){ 
+	strokeWeight (40) 
+	for(var m = 15; m<=displayWidth; m +=40){ 
+		for (var g= 10; g<=displayHeight; g +=80){ 
+			stroke(m/10,g/95,90) 
+			line(m,g+20,m,g+40) 
+			ellipse(mouseX, mouseY, 75, 75); 
+} 
+		} 
+	ellipse (50,92,350,310) 
+fill(24,52,16) 
+
+  //Add square paintbrush painting a center line
+
+  if(y < 800)
+    {
+      y+=50;
+    }
+  rect(x,y,diameter);
+  rect(x,y,120);
+  if(x >= 1900|| x <= 0)
+    {
+      movement*=-1;
+    }
+  
+     x += movement;
+    //Exit art for the paintbrush
+  point(80,100);
+  triangle(20,200,80,100,340,300);
+  triangle(5,200,80,100,340,100);
+  triangle(5,200,20,100,340,100);
+  textSize(100);
+  text('GO PAINT!!', 500, 95);
+   textSize(100);
+  text('HAVING FUN???', 500, 1000);
+}
